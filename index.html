@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarthi Rajamanickam</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: hsl(201, 71%, 24%);
+            color: white;
+            padding: 1rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+        }
+        nav {
+            background-color: hsl(201, 71%, 24%);
+            overflow: hidden;
+        }
+        nav a {
+            float: right;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 50px 58px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-left: 20px;
+            object-fit: cover;
+        }
+        h2 {
+            color: #333;
+        }
+        p, ol, ul {
+            margin-bottom: 1rem;
+        }
+        .contact-info {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .contact-info a {
+            color: black;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .home-intro, .about-me, .certificates, .skills, .internship, .contact, .resume {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #f4f4f4;
+            color: black;
+            padding: 50px;
+            border-radius: 8px;
+        }
+        .home-intro-text, .about-me-text, .certificates-text, .skills-text, .internship-text, .contact-text, .resume-text {
+            flex: 1;
+            text-align: left;
+        }
+        .home-intro h1, .about-me h2, .certificates h2, .skills h2, .internship h2, .contact h2, .resume h2 {
+            font-size: 2rem;
+        }
+        .home-intro p, .about-me p, .certificates p, .skills p, .internship p, .contact p, .resume p {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        .resume-button {
+            background-color: hsl(201, 37%, 76%);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .resume-button:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">Aarthi Rajamanickam</div>
+    <nav>
+        <a href="#contact">Contact</a>
+        <a href="#projects">Internship</a>
+        <a href="#skills">Skills</a>
+        <a href="#c">Certificates</a>
+        <a href="#about">About me</a>
+        <a href="#home">Home</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section class="section home-intro" id="home">
+        <div class="home-intro-text">
+            <h1 style="font-family: 'Times New Roman', Times, serif;font-size: 40px;">Welcome to My Portfolio</h1>
+            <p style="font-weight: bold;font-size: 40px;">Hii There!!<br> <br>
+                <span style="color: royalblue; font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 40px;">I'm Aarthi Rajamanickam!<br></span></p>
+            <p style="color: gray;"> Explore my skills, projects, and experiences through this portfolio. Feel free to reach out via the contact section!</p>
+           
+        </div>
+        <img src="photo.png" alt="Profile Photo" class="profile-photo">
+    </section>
+
+    <section class="section about-me" id="about">
+        <div class="about-me-text">
+            <h2>About Me</h2>
+            <p>Hello! My name is Aarthi Rajamanickam, and I am currently pursuing a degree in Electronics and Communication Engineering. I am passionate about technology and continuously seek to learn and grow in my field.</p>
+        </div>
+    </section>
+
+    <section class="section certificates" id="c">
+        <div class="certificates-text">
+            <h2>Certificates</h2>
+            <h3><span style="color: royalblue;">Coursera</span></h3>
+            <ul>
+                <li>HTML, CSS, Javascript for web developers</li><br>
+                <li>Interfacing with Arduino</li><br>
+                <li>Introduction to Embedded Systems</li><br>
+            </ul>
+            <h3><span style="color: royalblue;">Cisco</span></h3>
+            <ul>
+                <li>Introduction to Cybersecurity</li>
+            </ul>
+            <h3><span style="color: royalblue;">Internship</span></h3>
+            <ol>
+                <li>Completed internship training at Salzer Electronics Limited, Coimbatore</li><br>
+                <li>undergone oneweek inplant training on arduino in Enthu Technology Solutions</li>
+            </ol>
+            
+        </div>
+    </section>
+
+    <section class="section skills" id="skills">
+        <div class="skills-text">
+            <h2>Skills</h2>
+            <h3><span style="color: royalblue;">Languages</span></h3>
+            <ol>
+                <li>English</li>
+                <li>Tamil</li>
+            </ol>
+            <h3><span style="color: royalblue;">Technical Skills</span></h3>
+            <ul>
+                <li>JavaScript</li>
+                <li>C++</li>
+                <li>HTML & CSS</li>
+                <li>React</li>
+            </ul>
+            <h3><span style="color: royalblue;">Soft Skills</span></h3>
+            <ul>
+                <li>Adaptability and flexibility</li>
+                <li>Critical Thinking and problem solving</li>
+                <li>Communication and interpersonal skills</li>
+                <li>Leadership and initiative</li>
+                <li>Leandership and innovation</li>
+                <li>Customer service and relations</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section internship" id="projects">
+        <div class="internship-text">
+            <h2>Internship</h2>
+            <ol>
+                <li>Completed 15 days internship at Salzer Electronics Limited</li><br>
+                <li>Enthu Technology</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="section contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>You can reach me at:</p>
+                <p>Email: <a href="mailto:aarthistanley@example.com">aarthistanley@gmail.com</a></p>
+                <p>Phone: 6383288161</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/aarthi-rajamanickam-4a6626258/" target="_blank">https://www.linkedin.com/in/aarthi-rajamanickam-4a6626258/</a></p>
+                <p>GitHub: <a href="https://github.com/aarthiraj05" target="_blank">https://github.com/aarthiraj05</a></p>
+                <a href="Aarthi Resume cv.pdf" class="resume-button" target="_blank">View Resume</a>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>
